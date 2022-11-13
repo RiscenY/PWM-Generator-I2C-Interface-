@@ -32,26 +32,9 @@ $dumpvars(0, testHarness);
 end
 
 
-//i2cSlave u_i2cSlave(
-//  .clk(clk),
-//  .rst(rst),
-//  .sda(sda),
-//  .scl(scl),
-//  .myReg0(),
-//  .myReg1(),
-//  .myReg2(),
-//  .myReg3(),
-//  .myReg4(8'h12),
-//  .myReg5(8'h34),
-//  .myReg6(8'h56),
-//  .myReg7(8'h78)
-//);
 i2cPWM_Top u_i2cPWM_Top (
   .clk(clk),
   .rst_n(rst_n),
-//  .sdaOutEn(sdaOutEn),
-//  .sdaOut(sdaOut),
-//  .sdaIn(sdaIn),
   .sda(sda),
   .scl(scl),
   .pwm(pwm)
